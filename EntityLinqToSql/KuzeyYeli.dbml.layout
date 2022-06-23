@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="KuzeyYeli">
+  <DataContextMoniker Name="/KuzeyYeliDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1153c252-6f62-48e2-8b24-c3838b40cc7e" absoluteBounds="3.625, 1.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/KuzeyYeliDataContext/Urunler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2ccf900-5a02-4a29-9dee-424c3ae0fa94" absoluteBounds="3.6399999999999997, 2.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cb0e472d-0652-486f-9288-b33539496f17" absoluteBounds="1.125, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KuzeyYeliDataContext/Kategoriler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93d1b8b1-39b0-4887-89a0-ddb22c17eb42" absoluteBounds="1.1399999999999997, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 2.10179768880208); (3.625 : 2.10179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KuzeyYeliDataContext/Kategoriler/Kategoriler_Urunler" />
+      <nodes>
+        <classShapeMoniker Id="cb0e472d-0652-486f-9288-b33539496f17" />
+        <classShapeMoniker Id="1153c252-6f62-48e2-8b24-c3838b40cc7e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7b8af24d-73b0-41f6-9ba3-ee05ec1057f6" absoluteBounds="3.625, 5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/KuzeyYeliDataContext/SatisDetay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="808b4755-8b61-498a-a609-7f7380b403c1" absoluteBounds="3.6399999999999997, 5.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 4.35740397135417); (4.625 : 5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KuzeyYeliDataContext/Urunler/Urunler_SatisDetay" />
+      <nodes>
+        <classShapeMoniker Id="1153c252-6f62-48e2-8b24-c3838b40cc7e" />
+        <classShapeMoniker Id="7b8af24d-73b0-41f6-9ba3-ee05ec1057f6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ab811313-bea3-4926-a35a-ae711d5423c7" absoluteBounds="6.25, 0.5, 2, 3.1170068359375">
+      <DataClassMoniker Name="/KuzeyYeliDataContext/Tedarikciler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e21e43c7-7684-4471-aa62-5fb1fbe81fc8" absoluteBounds="6.2650000000000006, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.25 : 2.62100341796875); (5.625 : 2.62100341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KuzeyYeliDataContext/Tedarikciler/Tedarikciler_Urunler" />
+      <nodes>
+        <classShapeMoniker Id="ab811313-bea3-4926-a35a-ae711d5423c7" />
+        <classShapeMoniker Id="1153c252-6f62-48e2-8b24-c3838b40cc7e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
